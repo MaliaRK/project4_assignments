@@ -12,9 +12,6 @@ height = {
 
 age = st.text_input("📅 Age: (between 2-120)", max_chars=3)
 
-# if age and not age.isdigit():
-#     st.error("❌ invalid input. please enter in digits.")
-
 gender = st.radio("Gender: ", options=['Male', 'Female'], horizontal=True)
 
 weight = st.text_input(label="⚖️ Weight:", placeholder="kg", max_chars=5)
